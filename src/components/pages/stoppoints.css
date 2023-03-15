@@ -1,0 +1,75 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* heading styles */
+.main-points-title {
+    margin: 1rem auto;
+    text-align: center;
+}
+
+.main-points-title h2 {
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+}
+
+/* btn styles */
+.btn-points {
+    background-color: rgb(100, 39, 105);
+    border: 0.1rem solid rgb(57, 23, 63);
+    padding: 0.4rem 1rem;
+    border-radius: 10rem;
+    color: white;
+    font-weight: bold;
+    margin: 1rem auto;
+    cursor: pointer;
+}
+
+.btn-points:hover {
+    transform: scale(0.9);
+    transition: 0.3s ease-in;
+}
+
+.btn-points:active {
+    transform: scale(1);
+    transition: 0.3s ease-in;
+}
+
+/* list styles */
+
+
+.points {
+    font-weight: bold;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+}
+
+.point {
+    font-weight: bold;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+    cursor: pointer;
+    text-align: center;
+}
+
+.point:hover {
+    text-shadow: 0 0 1rem rgb(255, 253, 156);
+    transition: 0.3s ease-in-out;
+}
+
+.point span {
+    padding-left: 0.4rem;
+    color: rgb(100, 39, 105);
+}
+
+
+@media screen and (max-width: 820px) {
+    .points {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
