@@ -16,7 +16,7 @@ export default function Main() {
         <div className='wrapper'>
             <div className='main-place-title'>
                 <h2>Learn about places</h2>
-                <img src={require("./img/map-pin.png")} width="50px" alt='places'></img>
+                <img src={require("./img/map-pin.png")} width="50px" alt='places' className='icon'></img>
             </div>
             <button className='btn-places' onClick={fetchData}> Get places</button>
 

@@ -17,7 +17,7 @@ export default function Vehicle() {
         <div className='wrapper'>
             <div className='main-vehicle-title'>
                 <h2>Info about accidents</h2>
-                <img src={require("./img/car.png")} width="50px" alt='vehicle'></img>
+                <img src={require("./img/car.png")} width="50px" alt='vehicle' className='icon'></img>
             </div>
             <button className='btn-vehicle' onClick={fetchData}> Get info</button>
 

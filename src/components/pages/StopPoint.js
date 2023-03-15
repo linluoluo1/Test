@@ -17,7 +17,7 @@ export default function StopPoint() {
         <div className='wrapper'>
             <div className='main-points-title'>
                 <h2>Learn about stopPoints</h2>
-                <img src={require("./img/pit-stop.png")} width="50px" alt='pitstop'></img>
+                <img src={require("./img/pit-stop.png")} width="50px" alt='pitstop' className='icon'></img>
             </div>
             <button className='btn-points' onClick={fetchData}> Get StopPoints</button>
 
