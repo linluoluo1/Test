@@ -18,36 +18,10 @@
     margin-bottom: 1.5rem;
 }
 
-/* btn styles */
-.btn-bikes-lat-lon {
-    background-color: rgb(103, 103, 196);
-    border: 0.1rem solid rgb(54, 54, 141);
-    padding: 0.4rem 1rem;
-    border-radius: 10rem;
-    color: white;
-    font-weight: bold;
-    margin: 1rem auto;
-    cursor: pointer;
-}
 
-.btn-bikes-lat-lon:hover {
-    transform: scale(0.9);
-    transition: 0.3s ease-in;
-}
-
-.btn-bikes-lat-lon:active {
-    transform: scale(1);
-    transition: 0.3s ease-in;
-}
 
 /* list styles  */
-.bikes {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-column-gap: 3rem;
-    width: fit-content;
 
-}
 
 .bike {
 
@@ -67,7 +41,7 @@
 }
 
 .bikes strong {
-    color: rgb(103, 103, 196);
+    color: rgb(255, 214, 9);
     padding-left: 0.3rem;
     padding-right: 0.3rem;
 }

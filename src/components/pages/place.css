@@ -15,27 +15,7 @@
     font-size: 2rem;
 }
 
-/* btn styles */
-.btn-places {
-    background-color: rgb(106, 146, 143);
-    border: 0.1rem solid rgb(73, 85, 84);
-    padding: 0.4rem 1rem;
-    border-radius: 10rem;
-    color: white;
-    font-weight: bold;
-    margin: 1rem auto;
-    cursor: pointer;
-}
 
-.btn-places:hover {
-    transform: scale(0.9);
-    transition: 0.3s ease-in;
-}
-
-.btn-places:active {
-    transform: scale(1);
-    transition: 0.3s ease-in;
-}
 
 /* list styles */
 
@@ -55,7 +35,7 @@
 
 .place span {
     padding-left: 0.4rem;
-    color: rgb(57, 122, 122);
+    color: rgb(255, 214, 9);
 }
 
 

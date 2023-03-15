@@ -18,7 +18,7 @@ export default function Main() {
                 <h2>Learn about places</h2>
                 <img src={require("./img/map-pin.png")} width="50px" alt='places' className='icon'></img>
             </div>
-            <button className='btn-places' onClick={fetchData}> Get places</button>
+            <button className='btn' onClick={fetchData}> Get places</button>
 
 
             <ol className='places'>

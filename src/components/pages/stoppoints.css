@@ -15,27 +15,8 @@
     font-size: 2rem;
 }
 
-/* btn styles */
-.btn-points {
-    background-color: rgb(100, 39, 105);
-    border: 0.1rem solid rgb(57, 23, 63);
-    padding: 0.4rem 1rem;
-    border-radius: 10rem;
-    color: white;
-    font-weight: bold;
-    margin: 1rem auto;
-    cursor: pointer;
-}
 
-.btn-points:hover {
-    transform: scale(0.9);
-    transition: 0.3s ease-in;
-}
 
-.btn-points:active {
-    transform: scale(1);
-    transition: 0.3s ease-in;
-}
 
 /* list styles */
 
@@ -61,7 +42,7 @@
 
 .point span {
     padding-left: 0.4rem;
-    color: rgb(100, 39, 105);
+    color: rgb(255, 214, 9);
 }
 
 

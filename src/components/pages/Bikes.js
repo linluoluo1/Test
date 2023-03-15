@@ -18,7 +18,7 @@ export default function Bike() {
                 <h2>Get info about bikes</h2>
                 <img src={require("./img/bicycle.png")} width="50px" alt='bike' className='icon'></img>
             </div>
-            <button className='btn-bikes-lat-lon' onClick={fetchData}> Get street name</button>
+            <button className='btn' onClick={fetchData}> Get street name</button>
 
 
             <ol className='bikes'>
